@@ -12,3 +12,45 @@ Settings
 	building cost refund:50%
 	spritesheet:icons, 48 by 48, stuff/bunnyIcons.png
 	stylesheet:stuff/bigBlue.css
+
+Layout
+  use default
+  *achieves
+    in:main
+    contains:Achievements
+  *items
+    in:store
+    contains:Items
+  *log
+    contains:Log
+
+Resources
+  *planks|plank|wood
+    name:Wood Planks
+    desc:Cut tree logs. Wood is the core of every civilization.
+    icon:icons[0,0]
+    show earned
+  *stone|rock|cobblestone
+    name:Cobblestone
+    desc:The most common solid thing you can find within a cave. Slightly harder than wood.
+    icon:icons[1,0]
+    show earned
+  *iron-o|raw iron|iron ore
+    name:Iron Ore
+    desc:Freshly mined iron. Burn it to get Iron Ingot.
+    icon:icons[2,0]
+    show earned
+  *coal|coal-o|coal ore
+    name:Coal
+    desc:The only fuel you can find.
+    icon:icons[0,0]
+    show earned
+
+Buttons
+  *forest
+    name:Trees
+    desc:Cut down trees and get wood. Sometimes apples fall down too!
+    tag:Axe
+    on click:anim icon wobble
+    on click:yield 4 planks
+    on click:if (chance(4%)) yield 1 apple
