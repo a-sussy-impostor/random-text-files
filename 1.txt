@@ -1,1 +1,14 @@
-test
+Let's make a game!
+	name:Mining Simulator
+	by:Not Sus Impostor
+	desc:A simple idle game that let players collect resources, build their coorporate, and fight powerful bosses by woodcutting, mining, harvesting, killing, grinding and crafting!o
+	created:19/5/2024
+	updated:19/5/2024
+	version:0.0.1-unready
+
+Settings
+	background:stuff/meadow.jpg
+	building cost increase:120%
+	building cost refund:50%
+	spritesheet:icons, 48 by 48, stuff/bunnyIcons.png
+	stylesheet:stuff/bigBlue.css
