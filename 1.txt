@@ -1,4 +1,4 @@
-Let's make a game!
+Let‘s make a game!
 	name:Mining Simulator
 	by:Not Sus Impostor
 	desc:A simple idle game that let players collect resources, build their coorporate, and fight powerful bosses by woodcutting, mining, harvesting, killing, grinding and crafting!o
